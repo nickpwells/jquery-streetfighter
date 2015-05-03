@@ -53,9 +53,9 @@ body {
   height: 90px;
   display: none;
   float: left;
-  position: relative;
+  position: absolute;
+  top: 175;
   left: 529;
-  top: -324;
   z-index: 10;
 }
 
