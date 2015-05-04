@@ -13,9 +13,8 @@ body {
 }
 
 .ryu {
-	float: left;
 	width: 659px;
-    height: 494px;
+  height: 494px;
 }
 
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
@@ -59,6 +58,19 @@ body {
   z-index: 10;
 }
 
+.instructions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.instructions h1 {
+  margin: 0;
+  margin-right: 1em;
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 1.5em;
+}
 
 
 
